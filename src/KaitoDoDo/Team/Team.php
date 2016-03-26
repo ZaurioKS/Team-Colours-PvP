@@ -16,7 +16,7 @@ class Team extends PluginBase implements Listener {
 	
 	public function onEnable()
 	{
-		  $this->getLogger()->info(TextFormat::DARK_AQUA . "§cTeams §9by §aKaitoDoDo");
+		  $this->getLogger()->info(TextFormat::AQUA . "§cTeams §9by §aKaitoDoDo");
 
         $this->getServer()->getPluginManager()->registerEvents($this ,$this);
 		@mkdir($this->getDataFolder());
