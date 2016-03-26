@@ -1,0 +1,13 @@
+name: TeamsDoDo
+main: KaitoDoDo\Team\Team
+author: KaitoDoDo
+version: 2.0.0
+api: 
+- 1.0.0
+- 1.1.0
+- 2.0.0
+
+commands:
+    team:
+        usage: /team <red-blue-green>
+        description: Teams commands
